@@ -1,0 +1,14 @@
+{
+  "name": "@preview-pkg/root",
+  "type": "module",
+  "scripts": {
+    "dev": "pnpm --filter @preview-pkg/web dev",
+    "build": "pnpm -r build",
+    "deploy": "pnpm --filter @preview-pkg/web run deploy"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20251014.0",
+    "@types/node": "^24.9.2",
+    "typescript": "^5.9.3"
+  }
+}

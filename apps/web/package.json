@@ -1,0 +1,19 @@
+{
+  "name": "@preview-pkg/web",
+  "type": "module",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "alchemy dev",
+    "deploy": "alchemy deploy"
+  },
+  "dependencies": {
+    "@hono/valibot-validator": "^0.5.3",
+    "hono": "^4.10.4",
+    "octokit": "^5.0.5",
+    "valibot": "^1.1.0"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20251014.0",
+    "alchemy": "^0.77.0"
+  }
+}

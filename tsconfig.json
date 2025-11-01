@@ -1,0 +1,15 @@
+{
+	"compilerOptions": {
+		"target": "esnext",
+		"module": "esnext",
+		"moduleResolution": "bundler",
+		"types": ["node", "@cloudflare/workers-types"],
+		"strict": true,
+		"allowImportingTsExtensions": true,
+		"alwaysStrict": true,
+		"noEmit": true,
+		"skipLibCheck": true,
+		"skipDefaultLibCheck": true,
+		"verbatimModuleSyntax": true
+	}
+}

@@ -5,4 +5,7 @@ export default defineConfig({
   banner: `#!/usr/bin/env node`,
   outDir: "dist",
   format: "esm",
+  env: {
+    DEFAULT_API_URL: "https://pkg.rx2.dev",
+  },
 });

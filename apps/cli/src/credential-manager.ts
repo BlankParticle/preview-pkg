@@ -30,7 +30,7 @@ export class GithubCredentialsManager {
   static auth = createOAuthDeviceAuth({
     clientId: GITHUB_CLIENT_ID,
     clientType: "oauth-app",
-    scopes: ["read:user", "user:email"],
+    scopes: ["user:email"],
     onVerification: async (verification) => {
       console.log();
       prompts.intro(

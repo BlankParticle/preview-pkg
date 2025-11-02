@@ -13,6 +13,9 @@
     "email": "hello@blankparticle.com",
     "url": "https://blankparticle.com"
   },
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "tsdown",
     "dev": "tsdown --watch"

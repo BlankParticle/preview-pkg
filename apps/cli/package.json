@@ -13,6 +13,7 @@
     "email": "hello@blankparticle.com",
     "url": "https://blankparticle.com"
   },
+  "license": "MIT",
   "files": [
     "dist"
   ],
